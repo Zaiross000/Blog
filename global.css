@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w100{
+  width: 100%;
+}
+
+input{
+  padding: 8px;
+}
+
+button,
+.cur-poiter {
+  cursor: pointer;
+}
+
+.btn{
+  color: #fff;
+  background-color: #000;
+  padding: 8px 16px;
+  font-size: 16px;
+}
+
+img {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-padding {
+  padding: 64px 16px;
+}
+
+.bgc-white {
+  background-color: #fff;
+}
+
+.bgc-black {
+  background-color: #000;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-justify {
+  text-align: justify;
+}
+
+.txt-italic {
+  font-style: italic;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-black {
+  color: #000;
+}
+
+.mb10{
+  margin-bottom: 10px;
+}
+
+.m0auto {
+  margin: 0 auto;
+}
+
+.m10 {
+  margin: 10px 0;
+}
+
+.m15 {
+  margin: 15px 0;
+}
+
+.db {
+  display: block;
+}
+
+.df {
+  display: flex;
+}
+
+.df-btw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.df-sp-btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.df-btw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgc-modal{
+  background-color: #009688;
+}
+
+.dn{
+  display: none;
+}

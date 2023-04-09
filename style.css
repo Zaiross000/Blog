@@ -1,0 +1,202 @@
+/* Nav */
+nav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  padding: 16px 24px;
+  position: relative;
+}
+
+nav ul li:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Sub nav */
+nav .sub-nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  display: none;
+}
+.sub-nav li {
+  padding: 12px 24px;
+}
+
+nav > ul > li:hover .sub-nav {
+  display: block;
+}
+
+/* Icon sreach */
+
+nav .sreach {
+  padding: 16px 24px;
+}
+
+nav .sreach:hover {
+  background-color: red;
+}
+
+/* Slider */
+.slider {
+  position: relative;
+}
+
+.slider img {
+  margin-top: 50px;
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+
+.slider .text-slider {
+  padding: 36px 12px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.text-slider h3 {
+  font-size: 24px;
+}
+/* Description */
+
+.title {
+  letter-spacing: 4px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.member {
+  padding: 32px 0;
+}
+
+.member img {
+  width: 60%;
+}
+
+/* Tour Date */
+.date {
+  width: 100%;
+  list-style: none;
+}
+
+.date li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sold-out {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-left: 8px;
+  background-color: red;
+}
+
+.quantity {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+/* Products */
+.products{
+  margin-right: -8px;
+  margin-left: -8px;
+  list-style: none;
+  padding: 0px 16px 64px 16px;
+}
+
+.card{
+  width: 33.33333%;
+  padding: 0px 8px;
+}
+
+.card-desc{
+  padding: 0px 16px;
+}
+
+.date-time{
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.btn-buy{
+  margin-bottom: 15px;
+}
+
+/* Contact */
+.contact{
+  display: flex;
+}
+
+.left{
+  width: 50%;
+}
+
+.left i {
+  width: 30px;
+  font-size: 18px;
+}
+
+.form-item{
+  padding: 0px 8px;
+}
+
+.form-btn{
+  padding: 0px 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Modal */
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  background-color: #00000066;
+  padding-top: 100px;
+}
+
+.modal .layout-modal{
+  width: 100%;
+}
+
+.modal-w {
+  max-width: 900px;
+}
+
+.modal-head{
+  padding: 32px 16px;
+}
+
+.modal-head i {
+  margin-right: 16px;
+}
+
+.modal-body{
+  padding:  16px;
+}
+
+.btn-modal{
+  background-color: #009688 !important;
+  border: none;
+}
+
+
+
